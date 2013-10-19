@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/DeviceInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="@string/DefaultDeviceInfo" />
+    <FrameLayout
+        android:id="@+id/DeviceEventsMap"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="16"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+    <TextView
+        android:id="@+id/LastUpdateLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="@string/DefaultLastUpdate" />
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:text="@string/ClearButtonText" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="SelectDeviceButtonText">Select Device</string>
+  <string name="DeviceInfoButtonText">Show device info</string>
+  <string name="ClearButtonText">Clear</string>
+  <string name="DefaultUsername"></string>
+  <string name="DefaultPassword"></string>
+  <string name="LoginButtonText">Log in</string>
+  <string name="LogoutButtonText">Log out</string>
+  <string name="Username_hint">Username</string>
+  <string name="Password_hint">Password</string>
+  <string name="WrongCredential">Wrong username/password</string>
+  <string name="MissingUsernameOrPassword">Please enter a username and password</string>
+  <string name="HelloUser">Please login to see your information</string>
+  <string name="DefaultUserInfo">Please login to see your information</string>
+  <string name="DefaultDeviceInfo">Please select device</string>
+  <string name="DefaultDeviceEvents"></string>
+  <string name="DefaultDeviceSelection">Please select device</string>
+  <string name="DefaultLastUpdate">Last update: Never</string>
+  <string name="DeviceDialogTitle">Select your device</string>
+  <string name="ApplicationName">Mojio Demo</string>
+  <string name="BadConnectionAlertTitle">Alert</string>
+  <string name="BadConnectionAlertMessage">Please check your network connection</string>
+</resources>
