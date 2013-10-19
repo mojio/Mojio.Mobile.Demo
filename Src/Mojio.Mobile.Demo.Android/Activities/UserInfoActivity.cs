@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Mojio.Client;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon")]
     public class UserInfoActivity : BaseActivity

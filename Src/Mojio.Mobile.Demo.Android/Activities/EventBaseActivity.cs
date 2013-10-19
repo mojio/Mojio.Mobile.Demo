@@ -14,10 +14,9 @@ using Android.Util;
 using PushSharp.Client;
 using Com.TestFlightApp.Lib;
 using Mojio.Client;
-using Mojio.Events;
 using System.Threading;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     public abstract class EventBaseActivity : BaseActivity
     {

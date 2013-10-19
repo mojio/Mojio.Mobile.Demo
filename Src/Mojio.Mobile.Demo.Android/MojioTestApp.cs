@@ -12,12 +12,14 @@ using Android.Widget;
 using Com.TestFlightApp.Lib;
 using Mojio.Client;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     [Application]
-    public class MojioTestApp : Application
+    public class App : Application
 	{
-        public MojioTestApp(IntPtr javaReference, JniHandleOwnership transfer)
+		public static readonly Config Config = new Config ();
+
+		public App(IntPtr javaReference, JniHandleOwnership transfer)
             : base(javaReference, transfer) { }
 
         public override void OnCreate()
@@ -26,6 +28,9 @@ namespace Mojio.Mobile.Android.Test
 
 			// Add an exception handler for all uncaught exceptions.
 			AndroidEnvironment.UnhandledExceptionRaiser += MyApp_UnhandledExceptionHandler;
+
+			// Load config settings
+			var settings = new Config ();
             
             // Initialize the TestFlight framework.
 			if( Config.TestFlightApi != null )

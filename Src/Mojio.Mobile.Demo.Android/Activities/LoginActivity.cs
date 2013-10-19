@@ -8,7 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Mojio.Client;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     [Activity(Label = "LoginActivity")]
     public class LoginActivity : BaseActivity

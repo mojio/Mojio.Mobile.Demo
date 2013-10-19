@@ -109,3 +109,4 @@ UpgradeLog*.XML
 Src/Components/*
 *.userprefs
 Resource.Designer.cs
+Src/Mojio.Mobile.Demo.Android/Config.Local.cs

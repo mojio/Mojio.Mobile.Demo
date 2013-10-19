@@ -9,7 +9,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
 	class DependancyResolver
 	{

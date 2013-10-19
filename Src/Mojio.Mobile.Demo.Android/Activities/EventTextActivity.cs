@@ -15,7 +15,7 @@ using PushSharp.Client;
 using Android.Content.PM;
 using Com.TestFlightApp.Lib;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     [Activity(Label = "EventTextActivity", LaunchMode = LaunchMode.SingleTop)]
     public class EventTextActivity : EventBaseActivity

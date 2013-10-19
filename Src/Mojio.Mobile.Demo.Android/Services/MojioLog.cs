@@ -10,7 +10,7 @@ using Android.Views;
 using Android.Widget;
 using Com.TestFlightApp.Lib;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
 	public class MojioLog : ILogger
 	{

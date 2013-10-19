@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mojio.Mobile.Android.Test</RootNamespace>
-    <AssemblyName>Mojio.Mobile.Android.Test</AssemblyName>
+    <RootNamespace>Mojio.Mobile.Demo.Android</RootNamespace>
+    <AssemblyName>Mojio.Mobile.Demo.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -59,7 +59,6 @@
     <Compile Include="MojioTestApp.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Config.cs" />
     <Compile Include="Services\EventService.cs" />
     <Compile Include="Activities\BaseActivity.cs" />
     <Compile Include="Activities\EventMapActivity.cs" />
@@ -70,6 +69,8 @@
     <Compile Include="Utilities\DependancyResolver.cs" />
     <Compile Include="Utilities\ILogger.cs" />
     <Compile Include="Services\MojioLog.cs" />
+    <Compile Include="Config.Local.cs" />
+    <Compile Include="Config.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

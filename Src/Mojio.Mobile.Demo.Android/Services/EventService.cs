@@ -21,7 +21,7 @@ using Android.OS;
 [assembly: UsesPermission(Name = "android.permission.INTERNET")]
 [assembly: UsesPermission(Name = "android.permission.WAKE_LOCK")]
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     //You must subclass this!
     [BroadcastReceiver(Permission = GCMConstants.PERMISSION_GCM_INTENTS)]

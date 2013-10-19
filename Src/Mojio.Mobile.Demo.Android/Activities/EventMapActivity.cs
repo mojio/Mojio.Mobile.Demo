@@ -18,7 +18,7 @@ using Android.Graphics.Drawables;
 using Android.Content.PM;
 using Com.TestFlightApp.Lib;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     [Activity(Label = "EventMapActivity", LaunchMode = LaunchMode.SingleTop)]
     public class EventMapActivity : EventBaseActivity

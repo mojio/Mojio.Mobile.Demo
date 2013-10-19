@@ -1,5 +1,4 @@
 using System;
-
 using Android.App;
 using Android.Content;
 using Android.Runtime;
@@ -11,7 +10,7 @@ using Android.Net;
 using PushSharp.Client;
 using Mojio.Events;
 
-namespace Mojio.Mobile.Android.Test
+namespace Mojio.Mobile.Demo.Android
 {
     public class BaseActivity : Activity
 	{
