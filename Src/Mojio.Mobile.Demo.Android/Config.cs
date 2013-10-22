@@ -1,7 +1,7 @@
 /**
  * This is a sample config file.  To run this project you MUST input your own AppID and Key
  * 
- * If you wish to create an unversioned config file that will be persistent through updates
+ * If you wish to create an unversioned config file that will be untouched through updates
  * use can use a partial class   Config.Local.cs:
  * 
  * 
