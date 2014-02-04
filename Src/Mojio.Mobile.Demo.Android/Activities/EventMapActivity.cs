@@ -117,7 +117,7 @@ namespace Mojio.Mobile.Demo.Android
                             var tripEvent = eve as TripEvent;
 
 							// Make sure event has a location
-							if (tripEvent.Location != null && !tripEvent.Location.IsEmpty ()) {
+                            if (tripEvent.Location != null && tripEvent.Location.IsValid) {
 								Log.Verbose ("Adding event location to map");
 
 								_curLocation = new LatLng (tripEvent.Location.Lat, tripEvent.Location.Lng);
